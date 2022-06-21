@@ -30,7 +30,7 @@ namespace Course.Data
         public static void Serialiaze(string k)
         {
             string str = JsonConvert.SerializeObject(Items);
-            File.WriteAllText($@"E:\кпи топ\курсач\code\Course\Course.Data\json\{k}.json", str);
+            File.WriteAllText($@"E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\json\{k}.json", str);
         }
 
         

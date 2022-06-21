@@ -41,6 +41,8 @@ namespace Course
             FinalCityList.DataSource = null;
             StartCityList.DataSource = City.Items.Values.ToList();
             FinalCityList.DataSource = City.Items.Values.ToList();
+            FinalCityBox.DataSource = City.Items.Values.ToList();
+            StartCityBox.DataSource = City.Items.Values.ToList();
         }
         private void RefreshVoyageList()
         {
@@ -126,14 +128,14 @@ namespace Course
 
         private void AddCityBtn_Click(object sender, EventArgs e)
         {
-            if (TbCityName == null) MessageBox.Show("Input all info");
+            if (TbCityName.Text == "") MessageBox.Show("Input all info");
             else new City(1) { name = TbCityName.Text };
             RefreshCityLists();
         }
         private void EditCityBtn_Click(object sender, EventArgs e)
         {
             if (StartCityList.SelectedItem != null)
-                if (TbCityName == null) MessageBox.Show("Input all info");
+                if (TbCityName.Text == "") MessageBox.Show("Input all info");
                 else ((City)StartCityList.SelectedItem).name = TbCityName.Text;
             RefreshCityLists();
         }
@@ -155,7 +157,7 @@ namespace Course
 
         private void AddVoyageBtn_Click(object sender, EventArgs e)
         {
-            if (TbVoyageName == null || TbVoyageCompany == null) MessageBox.Show("Input all info");
+            if (TbVoyageName.Text == "" || TbVoyageCompany.Text == "") MessageBox.Show("Input all info");
             new Voyage(1) { name = TbVoyageName.Text,
                 StartCity = (City)StartCityBox.SelectedItem,
                 FinalCity = (City)FinalCityBox.SelectedItem,
@@ -165,7 +167,7 @@ namespace Course
         }
         private void EditVoyageBtn_Click(object sender, EventArgs e)
         {
-            if (VoyageList.SelectedItem != null || TbVoyageName == null || TbVoyageCompany == null)
+            if (VoyageList.SelectedItem != null || TbVoyageName.Text == "" || TbVoyageCompany.Text == "")
             {
                 ((Voyage)VoyageList.SelectedItem).name = TbVoyageName.Text;
                 ((Voyage)VoyageList.SelectedItem).StartCity = (City)StartCityBox.SelectedItem;
@@ -191,8 +193,8 @@ namespace Course
        
         private void AddFlightBtn_Click(object sender, EventArgs e)
         {
-            if (TbFlightName == null || ArrivalDate == null || DepartureDate == null ||
-                TbArrivalTime == null || TbDepartureTime == null || TbSeats == null || TbPrice == null)
+            if (TbFlightName.Text == "" || ArrivalDate.Text == "" || DepartureDate == null ||
+                TbArrivalTime == null || TbDepartureTime.Text == "" || TbSeats.Text == "" || TbPrice.Text == "")
             {
                 MessageBox.Show("Input all info");
                 return;

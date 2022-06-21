@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\кпи топ\\курсач\\code\\Course\\Course.Data\\Course.Data.csproj": {}
+    "E:\\кпи топ\\курсач\\course\\Course\\CourseWork\\Course.Data\\Course.Data.csproj": {}
   },
   "projects": {
-    "E:\\кпи топ\\курсач\\code\\Course\\Course.Data\\Course.Data.csproj": {
+    "E:\\кпи топ\\курсач\\course\\Course\\CourseWork\\Course.Data\\Course.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\кпи топ\\курсач\\code\\Course\\Course.Data\\Course.Data.csproj",
+        "projectUniqueName": "E:\\кпи топ\\курсач\\course\\Course\\CourseWork\\Course.Data\\Course.Data.csproj",
         "projectName": "Course.Data",
-        "projectPath": "E:\\кпи топ\\курсач\\code\\Course\\Course.Data\\Course.Data.csproj",
+        "projectPath": "E:\\кпи топ\\курсач\\course\\Course\\CourseWork\\Course.Data\\Course.Data.csproj",
         "packagesPath": "C:\\Users\\ivax2\\.nuget\\packages\\",
-        "outputPath": "E:\\кпи топ\\курсач\\code\\Course\\Course.Data\\obj\\",
+        "outputPath": "E:\\кпи топ\\курсач\\course\\Course\\CourseWork\\Course.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ivax2\\AppData\\Roaming\\NuGet\\NuGet.Config",

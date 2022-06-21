@@ -8,3 +8,13 @@ E:\кпи топ\курсач\code\Course\Course.Data\bin\Debug\netcoreapp3.1\Co
 E:\кпи топ\курсач\code\Course\Course.Data\bin\Debug\netcoreapp3.1\Course.Data.pdb
 E:\кпи топ\курсач\code\Course\Course.Data\obj\Debug\netcoreapp3.1\Course.Data.dll
 E:\кпи топ\курсач\code\Course\Course.Data\obj\Debug\netcoreapp3.1\Course.Data.pdb
+E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\bin\Debug\netcoreapp3.1\Course.Data.deps.json
+E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\bin\Debug\netcoreapp3.1\Course.Data.dll
+E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\bin\Debug\netcoreapp3.1\Course.Data.pdb
+E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\obj\Debug\netcoreapp3.1\Course.Data.csproj.AssemblyReference.cache
+E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\obj\Debug\netcoreapp3.1\Course.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\obj\Debug\netcoreapp3.1\Course.Data.AssemblyInfoInputs.cache
+E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\obj\Debug\netcoreapp3.1\Course.Data.AssemblyInfo.cs
+E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\obj\Debug\netcoreapp3.1\Course.Data.csproj.CoreCompileInputs.cache
+E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\obj\Debug\netcoreapp3.1\Course.Data.dll
+E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\obj\Debug\netcoreapp3.1\Course.Data.pdb

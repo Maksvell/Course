@@ -22,13 +22,13 @@ namespace Course
         private void FormMain_Load(object sender, EventArgs e)
         {
 
-            string jsonCity = File.ReadAllText(@"E:\кпи топ\курсач\code\Course\Course.Data\json\city.json");
+            string jsonCity = File.ReadAllText(@"E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\json\city.json");
             City.Items = JsonConvert.DeserializeObject<Dictionary<Guid, City>>(jsonCity);
-            string jsonVoyage = File.ReadAllText(@"E:\кпи топ\курсач\code\Course\Course.Data\json\voyage.json");
+            string jsonVoyage = File.ReadAllText(@"E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\json\voyage.json");
             Voyage.Items = JsonConvert.DeserializeObject<Dictionary<Guid, Voyage>>(jsonVoyage);
-            string jsonFlight = File.ReadAllText(@"E:\кпи топ\курсач\code\Course\Course.Data\json\flight.json");
+            string jsonFlight = File.ReadAllText(@"E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\json\flight.json");
             Flight.Items = JsonConvert.DeserializeObject<Dictionary<Guid, Flight>>(jsonFlight);
-            string jsonPilot = File.ReadAllText(@"E:\кпи топ\курсач\code\Course\Course.Data\json\pilot.json");
+            string jsonPilot = File.ReadAllText(@"E:\кпи топ\курсач\course\Course\CourseWork\Course.Data\json\pilot.json");
             Pilot.Items = JsonConvert.DeserializeObject<Dictionary<Guid, Pilot>>(jsonPilot);
 
 
